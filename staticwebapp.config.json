@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "redirect": "https://www.jmerrill.foundation",
+      "statusCode": 308
+    }
+  ],
+  "navigationFallback": { "rewrite": "/index.html" }
+}
