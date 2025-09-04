@@ -3,8 +3,7 @@
     {
       "route": "/*",
       "redirect": "https://www.jmerrill.foundation",
-      "statusCode": 308
+      "statusCode": 301
     }
-  ],
-  "navigationFallback": { "rewrite": "/index.html" }
+  ]
 }
